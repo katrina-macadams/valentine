@@ -10,6 +10,7 @@ btn_open.click(function() {
 });
 btn_reset.click(function() {
     close();
+    console.log("reset");
 });
 
 function open() {
@@ -20,4 +21,5 @@ function open() {
 function close() {
     envelope.addClass("close")
         .removeClass("open");
+    console.log("close");
 }
